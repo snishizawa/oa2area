@@ -91,8 +91,8 @@ for(my $i=0; $i<=$#CELLILA; $i++){
 	}
 }
 close(CELLIL);
-# system("/bin/rm $cellil");
-system("mv $cellil il");
+system("/bin/rm $cellil");
+# system("mv $cellil il");
 ## area calculation
 $area = abs($x2 - $x1) * abs($y2 - $y1);
 
