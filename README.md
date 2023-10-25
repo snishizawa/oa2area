@@ -12,7 +12,7 @@ oa2area.pl --scale %scale% --lib %lib% --cell %cell% --view %view% --techf %tech
 |%cell%| Target cell name in the target OA library.|
 |%view%| Should be "layout".|
 |%techf%| Techfile of target library.|
-|%layer%| LayerName of "Boundary" layer. Both LayerName and Abbreviation are supported.|
+|%layer%| LayerName of "Boundary" layer. Both LayerName and Abbreviation are supported (Check LayoutEditing window or techfile).|
 |%areaf%| File to be generated.|
 
 # Example
